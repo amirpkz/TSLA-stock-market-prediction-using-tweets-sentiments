@@ -5,8 +5,8 @@ In the past, sentiment analysis has been used in the financial domain to predict
 approaches have mostly focused on traditional statistical models, such as regression and time series analysis, and have
 limited the scope of the analysis to a small number of features. These approaches also require significant manual feature
 engineering and often lack the ability to capture the context and nuances of language.
-Recently, with the advancements in deep learning techniques, specifically the development of the Long Short-Term
-Memory (LSTM) model, which is a type of recurrent neural network, researchers have demonstrated the effectiveness
+Recently, with the advancements in deep learning techniques, specifically the development of the **Long Short-Term
+Memory (LSTM)** model, which is a type of recurrent neural network, researchers have demonstrated the effectiveness
 of applying these techniques to the field of stock market prediction using social media data. The LSTM model has shown
 to be particularly effective in capturing the temporal dependencies and contextual information of the data, which are
 crucial for stock market prediction. Therefore, applying data science techniques such as LSTM model to analyze Twitter
@@ -15,7 +15,7 @@ sentiment of users towards companies.
 
 # Details on dataset
 There are two data sources: market price history and tweets from Twitter. We obtained daily price history in CSV format
-from Yahoo Finance, covering the period from January 1, 2020, to December 31, 2022. The data includes open, close,
+from Yahoo Finance, covering the period from January 1, 2020, to December 31, 2021. The data includes open, close,
 high, and low prices, as well as volume. To collect tweet data, we used the Twitter API with the Tweepy package in
 Python. The API offers two versions with different authentication services. To extract useful features from Twitter, we
 defined a search query that included the keyword #tesla and excluded all media, links, and retweeted content. We utilized
